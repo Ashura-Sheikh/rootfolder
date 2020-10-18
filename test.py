@@ -1,4 +1,7 @@
-a = 500000000
+import random
+
+
+a = 451 
 b = 55465215
 c = a * b + b
 # Testing 0
