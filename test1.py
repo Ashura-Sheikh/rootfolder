@@ -1,14 +1,14 @@
 from matplotlib import pyplot as plt
 
-dev_x = [10,20,30,40,50,60,70]
+jobs = [25,34,43,23,46,13,24,34,45,29]
 
-dev_y = [12345,14541,14145,98758,74571,11578,11548]
+aht = [15,12,23,8,17,14,7,10,14,12]
 
-plt.plot(dev_x, dev_y)
+plt.plot(jobs, aht)
 
-plt.title("Median Salary (EUR) by Age")
-plt.xlabel("Ages")
-plt.ylabel("Median salary (EUR)")
+plt.title("Production")
+plt.xlabel("Jobs-Completed")
+plt.ylabel("Average-Handling-Time")
 
 
 plt.show()
